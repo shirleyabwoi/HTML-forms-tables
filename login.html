@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        form{
+        border: 1px;
+        margin: auto;
+        display: block;
+        width: 30%;
+        margin: 0 auto;
+        padding: 50px;
+        box-shadow: 5px 5px  5px 5px rgba(0,0,0,0.3);
+        
+    }
+        
+    
+    .submit_button{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        border: none;
+        color: white;
+        
+    }
+    .position{
+  position: relative;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.position:before{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.position:after{
+    content:" ";
+  height: 2px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.submit_button{
+        background-color: black;
+        width: 100%;
+        height: 40%;
+        border: none;
+        padding: 20px;
+}
+#Icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+    </style>
+
+    
+</head>
+<body>
+    <nav>
+    <form>
+        <p style="color: grey;">already have an account? <a href="/index.html" style="color: black;"><b>Sign Up</b></a></p>
+        <h1> Sign In</h1>
+        <label for="first-name">Email</label>
+        <br><br>
+        <input style="width: 100%; padding: 10px;" type="email" id="email" placeholder="Enter Email address"/>
+        <br><br>
+        <label for="password">Password</label>
+        <br><br>
+        <input style="width: 100%; padding: 10px;" type="password" placeholder="Enter password" id="email"/>
+        <br><br>
+        <input type="checkbox" id="Terms and conditions" name="terms and conditions">
+        <label for="terms and conditions"> I've read And Agree With <b>The Terms Of Service</b> And Our <b> Privacy Policy</b></label>
+        <br><br><br><br>
+        <button class="submit_button" type="submit"><a href="/table.html" style="color: white;">Sign In</a></button>
+        <br>
+        <p class="position">Or Sign In With</p>
+        <span id="Icons">
+        <i class="fa-brands fa-google"></i>
+        <i class="fa-brands fa-facebook"></i>
+        </span>
+
+
+        
+    
+        
+
+
+    </form>
+</nav>
+</body>
+</html>
